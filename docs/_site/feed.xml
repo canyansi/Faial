@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-18T17:50:24+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Project Faial - Building a basic drone</title><subtitle>Follow along as we build our first drone from scratch.</subtitle><entry><title type="html">Step 0 Where do we get started?</title><link href="http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation.html" rel="alternate" type="text/html" title="Step 0 Where do we get started?" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation</id><content type="html" xml:base="http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation.html">&lt;p&gt;Neither of us knew much about electronics, so our first step was to read as much as possible about drones. We came across a great deal of blogs, acronyms, and formats to create a drone, one subtype of unmanned aerial vehicle (UAV). Here are decisions we made along the way.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-18T18:03:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Project Faial - Building a basic drone</title><subtitle>Follow along as we build our first drone from scratch.</subtitle><entry><title type="html">Step 0 - Where do we get started?</title><link href="http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation.html" rel="alternate" type="text/html" title="Step 0 - Where do we get started?" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation</id><content type="html" xml:base="http://localhost:4000/starting/blog/2021/04/18/Step-0-Motivation.html">&lt;p&gt;Neither of us knew much about electronics, so our first step was to read as much as possible about drones. We came across a great deal of blogs, acronyms, and formats to create a drone, one subtype of unmanned aerial vehicle (UAV). Here are a subset of things we considered during our first steps.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-many-drones&quot;&gt;How many drones?&lt;/h1&gt;
+
+&lt;p&gt;We fiddled with the idea of simultaneously working on two drones, but decided perhaps it’s best to focus on one.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-kind-of-drone&quot;&gt;What kind of drone?&lt;/h1&gt;
+
+&lt;p&gt;We ultimately decided on a quadcopter (a UAV with four rotors), as it seemed to be the most standard model&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-manage-our-project&quot;&gt;How to manage our project?&lt;/h1&gt;
+&lt;p&gt;We settled on using &lt;a href=&quot;https://www.todoist.com/&quot;&gt;todoist&lt;/a&gt; to track responsibilities and share tasks. Todoist is basically as it’s name sounds. An app that enables simple to do lists in a clean fashion. So far it has worked well for us. We used a google drive folder to share documents and links&lt;/p&gt;
 
 &lt;h1 id=&quot;which-sites-were-the-most-helpful&quot;&gt;Which sites were the most helpful?&lt;/h1&gt;
 
@@ -6,9 +17,4 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=K05UwsiqZ_E&quot;&gt;Drone parts 101&lt;/a&gt; This youtube video gave me a pretty good overview of the different parts of the drone.&lt;/p&gt;
 
-&lt;h1 id=&quot;how-to-manage-our-project&quot;&gt;How to manage our project?&lt;/h1&gt;
-&lt;p&gt;We settled on using &lt;a href=&quot;todoist.com/&quot;&gt;todoist&lt;/a&gt; to track responsibilities and share tasks. Todoist is basically as it’s name sounds. An app that enables simple to do lists in a clean fashion. So far it has worked well for us. We used a google drive folder to share documents and links&lt;/p&gt;
-
-&lt;h1 id=&quot;how-many-drones&quot;&gt;How many drones?&lt;/h1&gt;
-
-&lt;p&gt;We fiddled with the idea of simultaneously working on two drones, but decided perhaps it’s best to focus on one.&lt;/p&gt;</content><author><name></name></author><category term="starting" /><category term="blog" /><summary type="html">Neither of us knew much about electronics, so our first step was to read as much as possible about drones. We came across a great deal of blogs, acronyms, and formats to create a drone, one subtype of unmanned aerial vehicle (UAV). Here are decisions we made along the way.</summary></entry></feed>
+&lt;p&gt;Based on this information in the next blog post, I’ll answer the biggest question that was on my mind during these early days….how the heck does a drone work?&lt;/p&gt;</content><author><name></name></author><category term="starting" /><category term="blog" /><summary type="html">Neither of us knew much about electronics, so our first step was to read as much as possible about drones. We came across a great deal of blogs, acronyms, and formats to create a drone, one subtype of unmanned aerial vehicle (UAV). Here are a subset of things we considered during our first steps.</summary></entry></feed>
