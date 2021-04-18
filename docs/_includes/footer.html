@@ -4,7 +4,8 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading">{{ site.title | slice: 0,13 | escape }} | <a href="https://github.com/canyansi/Faial"> Github </a>
+</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -29,6 +30,7 @@
              -->
             </li>
             {%- if site.email -%}
+
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
@@ -41,6 +43,8 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
+
+
     </div>
 
   </div>

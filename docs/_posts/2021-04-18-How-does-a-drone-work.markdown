@@ -16,10 +16,14 @@ This was the question I kept coming back to. I really wanted to wrap my head aro
 # Basics for flight
 As far as I'm concerned, in order for any aerial vehicle to function, it needs to satisfy 3 basic requirements.
 
-1. Mechanical wings for aerial lift
-2. Energy to power itself
-3. A brain to control everything
+- Flight mechanism
+- Energy to power itself
+- A brain to control everything
 
 That's it. Well, 4 things if you include a body to house everything. 
 
 # Mechanical Wings
+
+There are many methods to propel a device off the ground.  
+
+
