@@ -18,16 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Project Faial; Building an unmanned aerial vehicle
-email: canyansi73@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  We're two friends who were bored and curious about drones, so we decided to build one ourselves.
-  From scratch. 
-  This blog will be used to document our process. Follow along!
-baseurl: "/Faial" # the subpath of your site, e.g. /blog
-url: "http://canyansi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Project Faial - Building a basic drone 
+#email: canyansi73@gmail.com
+#email: a.gritsenko@gmail.com
+description:  # this means to ignore newlines until "baseurl:"
+  Follow along as we build our first drone from scratch. 
+#baseurl: "/Faial" # the subpath of your site, e.g. /blog #having problem figuring out how to make this relative
+url: "http://canyansi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: canyansi
+#github_username:  canyansi
 
 # Build settings
 theme: minima
