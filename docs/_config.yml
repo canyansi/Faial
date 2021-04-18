@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Project Faial - Building a basic drone 
+title: Project Faial - Building a basic drone
 #email: canyansi73@gmail.com
 #email: a.gritsenko@gmail.com
 description:  # this means to ignore newlines until "baseurl:"
@@ -27,11 +27,25 @@ description:  # this means to ignore newlines until "baseurl:"
 url: "http://canyansi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: canyansi
 #github_username:  canyansi
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Author details.
+authors:
+  christine:
+      name: Christine Anyansi
+      email: canyansi73@gmail.com
+      web: http://twitter.com/christinanyansi
+  alexey:
+      name: Alexey Gritsenko
+      email: a.gritsenko@gmail.com
+      web: http://twitter.com/agritsenko
+
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
