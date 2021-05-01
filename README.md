@@ -1,2 +1,2 @@
 # Faial
-Building an amazing quadcopter w/ my bestie
+Building an amazing quadcopter 
