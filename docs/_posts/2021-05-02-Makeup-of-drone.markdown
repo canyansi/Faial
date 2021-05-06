@@ -23,6 +23,8 @@ UAV's differ depending on the number of **rotors** (the part that spins). Quadco
 
 **Propellers** are the 'wings' which attach to the rotors to achieve altitude. These spin either clockwise or counterclockwise and come in different kinds of materials ( such as plastic) and sizes. Larger blades change velocity slower or, while smaller blades can easily change direction or speed.
 
+There needs to be a way to control how fast and in what direction the motors should spin. This is done by the **electronic speed controller (ESC)*** 
+
 #### 3. Powering it up
 
 Everything needs energy, a UAV is no exception. As mentioned before, bigger drones require more energy, which means a bigger battery. It was surprising to me to find out that most drones last around than ten minutes in the air. Naturally, flight time is dependent on how much battery is available!
