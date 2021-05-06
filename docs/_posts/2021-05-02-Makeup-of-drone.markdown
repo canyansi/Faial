@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building blocks of a drone"
-date:   2021-05-06
+date:   2021-05-02
 categories: preparing for build
 author: christine
 ---
@@ -21,7 +21,7 @@ UAV's differ depending on the number of **rotors** (the part that spins). Quadco
 
 **Motors** converts electrical energy to mechanical energy that leads to spin. It does this by basically playing around with differences in magnetic fields. You might remember that opposite charges attract, and same charges repel. The two kinds of motors, brushed and brushless, exploit these magnetic properties in different ways to generate spin. The difference between the two can be found in [this video](https://www.youtube.com/watch?v=C1-klL3B9LU). In short brushed motors are cheaper & simpler but less efficient and not durable. Brushless are more expensive but more efficient and are therefore usually recommended. 
 
-Propellers are the 'wings' which attach to the rotors to achieve altitude. These spin either clockwise or counterclockwise and come in different kinds of materials ( such as plastic) and sizes. Larger blades change velocity slower or, while smaller blades can easily change direction or speed.
+**Propellers** are the 'wings' which attach to the rotors to achieve altitude. These spin either clockwise or counterclockwise and come in different kinds of materials ( such as plastic) and sizes. Larger blades change velocity slower or, while smaller blades can easily change direction or speed.
 
 #### 3. Powering it up
 
@@ -31,7 +31,7 @@ Keep in mind that the voltage of the battery need to match that of the rotors, s
 
 #### 4. Drone control
 
-Last but not least is the brain. The brain of a UAV is the flight controller. The flight controller does what it's name says: controls the flight. It tells the rotors how fast to spin and in which direction. It reads in sensory data from the surroundings & the drone (air pressure, angular position, acceleration). And it's where all the fun autonomous flight possibilities lie.  You can either buy a prepackaged flight controller or you can make your own from an arduino or rasberry pi!
+Last but not least is the brain. The brain of a UAV is the **flight controller**. The flight controller does what it's name says: controls the flight. It tells the rotors how fast to spin and in which direction. It reads in sensory data from the surroundings & the drone (air pressure, angular position, acceleration). And it's where all the fun autonomous flight possibilities lie.  You can either buy a prepackaged flight controller or you can make your own from an arduino or rasberry pi!
 
 
 #### Add ons

@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-06T20:41:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Project Faial - Building a basic drone</title><subtitle>Follow along as we build our first drone from scratch.</subtitle><entry><title type="html">Building blocks of a drone</title><link href="http://localhost:4000/preparing/for/build/2021/05/06/Makeup-of-drone.html" rel="alternate" type="text/html" title="Building blocks of a drone" /><published>2021-05-06T00:00:00+02:00</published><updated>2021-05-06T00:00:00+02:00</updated><id>http://localhost:4000/preparing/for/build/2021/05/06/Makeup-of-drone</id><content type="html" xml:base="http://localhost:4000/preparing/for/build/2021/05/06/Makeup-of-drone.html">&lt;p&gt;The first thing we did in our journey to build a drone was to read up on what it would require to build a drone. These articles are mentioned in a &lt;a href=&quot;/starting/blog/2021/04/13/Planning.html&quot;&gt;previous blog post&lt;/a&gt;. As I said in the &lt;a href=&quot;/starting/blog/2021/04/18/How-does-a-drone-work.html&quot;&gt;last blog post&lt;/a&gt;, a drone works by fulfilling three things: having a flight mechanism, a source of power, and a brain. Four if you include the body/frame. I’ll go over these in detail here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-06T23:36:01+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Project Faial - Building a basic drone</title><subtitle>Follow along as we build our first drone from scratch.</subtitle><entry><title type="html">Deciding the design of our drone</title><link href="http://localhost:4000/preparing/for/build/2021/05/06/Design-decisions.html" rel="alternate" type="text/html" title="Deciding the design of our drone" /><published>2021-05-06T00:00:00+02:00</published><updated>2021-05-06T00:00:00+02:00</updated><id>http://localhost:4000/preparing/for/build/2021/05/06/Design-decisions</id><content type="html" xml:base="http://localhost:4000/preparing/for/build/2021/05/06/Design-decisions.html">&lt;p&gt;Armed with some knowledge about different components of the drone we made some fundamental decisions on how to move forward.&lt;/p&gt;
+
+&lt;h4 id=&quot;build-from-scratch&quot;&gt;Build from scratch&lt;/h4&gt;
+&lt;p&gt;Fundamentally we have decided to do everything from scratch as much as possible. This was Alexey’s idea and I’m kind of just rolling with it at this point. This means a much slower time to delivery, but also we will (hopefully) know more about what it really takes to make something that can fly.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-flight-controller&quot;&gt;The flight controller&lt;/h4&gt;
+&lt;p&gt;We decided to start with making the flight controller and just play around with the controls first. We wanted to design our own arduino based flight controller so that we can do some programming and apply the flight control algorithms ourselves. After some sleuthing, we decided to get the &lt;a href=&quot;https://store.arduino.cc/arduino-uno-rev3&quot;&gt;arduino one&lt;/a&gt; as it has been used in previous drone projects, has a good number of input/output channels (14) and is affordable (20 euro). We also purchased a &lt;a href=&quot;https://store.arduino.cc/proto-shield-rev3-uno-size&quot;&gt;prototyping board&lt;/a&gt; (10euro).&lt;/p&gt;
+
+&lt;h4 id=&quot;sensors&quot;&gt;Sensors&lt;/h4&gt;
+
+&lt;p&gt;Sensors are necessary for a more smooth flight. We opted to buy an &lt;a href=&quot;https://www.vanallesenmeer.nl/9-Degrees-of-Freedom-IMU-Breakout-LSM9DS1-Sparkfun-13284&quot;&gt;inertial measurement unit (IMU)&lt;/a&gt; which contains a gyroscope (detects angular changes of drone) and an accelerometer (measures acceleration). This helps with keeping the drone stable in flight. In addition we bought a &lt;a href=&quot;https://www.vanallesenmeer.nl/Barometric-Pressure-Sensor-Breakout-MPL115A1-Sparkfun-09721&quot;&gt;barometer&lt;/a&gt; (pressure sensor) to tell us the altitude of the drone. We decided not to purchase a GPS or a compass at this moment as these are expensive and can be added later.&lt;/p&gt;
+
+&lt;h4 id=&quot;build-own-frame&quot;&gt;Build own frame&lt;/h4&gt;
+&lt;p&gt;Alexey is currently looking into the making our own carbon fiber frame, instead of just buying an already available one. This would require also buying the material, and getting it 3d printed somewhere in Amsterdam. Let’s see if that’s possible!&lt;/p&gt;
+
+&lt;h4 id=&quot;overall-purchases&quot;&gt;Overall Purchases&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Item&lt;/th&gt;
+      &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;th&gt;Source&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;arduino uno&lt;/td&gt;
+      &lt;td&gt;flight controller&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://store.arduino.cc/arduino-uno-rev3&quot;&gt;arduino store&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;proto shield&lt;/td&gt;
+      &lt;td&gt;prototyping board&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://store.arduino.cc/arduino-uno-rev3&quot;&gt;arduino store&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IMU&lt;/td&gt;
+      &lt;td&gt;positional sensors&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://store.arduino.cc/proto-shield-rev3-uno-size&quot;&gt;vanallesenmeer (dutch store)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;barometer&lt;/td&gt;
+      &lt;td&gt;pressure sensor&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.vanallesenmeer.nl/Barometric-Pressure-Sensor-Breakout-MPL115A1-Sparkfun-09721&quot;&gt;vanallesenmeer (dutch store)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;next-up&quot;&gt;Next up&lt;/h4&gt;
+
+&lt;p&gt;We’ll be waiting for our purchases to arrive so we can play with the arduino. Excited!&lt;/p&gt;</content><author><name>christine</name></author><category term="preparing" /><category term="for" /><category term="build" /><summary type="html">Armed with some knowledge about different components of the drone we made some fundamental decisions on how to move forward.</summary></entry><entry><title type="html">Building blocks of a drone</title><link href="http://localhost:4000/preparing/for/build/2021/05/02/Makeup-of-drone.html" rel="alternate" type="text/html" title="Building blocks of a drone" /><published>2021-05-02T00:00:00+02:00</published><updated>2021-05-02T00:00:00+02:00</updated><id>http://localhost:4000/preparing/for/build/2021/05/02/Makeup-of-drone</id><content type="html" xml:base="http://localhost:4000/preparing/for/build/2021/05/02/Makeup-of-drone.html">&lt;p&gt;The first thing we did in our journey to build a drone was to read up on what it would require to build a drone. These articles are mentioned in a &lt;a href=&quot;/starting/blog/2021/04/13/Planning.html&quot;&gt;previous blog post&lt;/a&gt;. As I said in the &lt;a href=&quot;/starting/blog/2021/04/18/How-does-a-drone-work.html&quot;&gt;last blog post&lt;/a&gt;, a drone works by fulfilling three things: having a flight mechanism, a source of power, and a brain. Four if you include the body/frame. I’ll go over these in detail here.&lt;/p&gt;
 
 &lt;p&gt;Things to keep in mind when making an unmanned aerial vehicle (UAV) aka drone:&lt;/p&gt;
 
@@ -13,7 +64,7 @@
 
 &lt;p&gt;&lt;strong&gt;Motors&lt;/strong&gt; converts electrical energy to mechanical energy that leads to spin. It does this by basically playing around with differences in magnetic fields. You might remember that opposite charges attract, and same charges repel. The two kinds of motors, brushed and brushless, exploit these magnetic properties in different ways to generate spin. The difference between the two can be found in &lt;a href=&quot;https://www.youtube.com/watch?v=C1-klL3B9LU&quot;&gt;this video&lt;/a&gt;. In short brushed motors are cheaper &amp;amp; simpler but less efficient and not durable. Brushless are more expensive but more efficient and are therefore usually recommended.&lt;/p&gt;
 
-&lt;p&gt;Propellers are the ‘wings’ which attach to the rotors to achieve altitude. These spin either clockwise or counterclockwise and come in different kinds of materials ( such as plastic) and sizes. Larger blades change velocity slower or, while smaller blades can easily change direction or speed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Propellers&lt;/strong&gt; are the ‘wings’ which attach to the rotors to achieve altitude. These spin either clockwise or counterclockwise and come in different kinds of materials ( such as plastic) and sizes. Larger blades change velocity slower or, while smaller blades can easily change direction or speed.&lt;/p&gt;
 
 &lt;h4 id=&quot;3-powering-it-up&quot;&gt;3. Powering it up&lt;/h4&gt;
 
@@ -23,7 +74,7 @@
 
 &lt;h4 id=&quot;4-drone-control&quot;&gt;4. Drone control&lt;/h4&gt;
 
-&lt;p&gt;Last but not least is the brain. The brain of a UAV is the flight controller. The flight controller does what it’s name says: controls the flight. It tells the rotors how fast to spin and in which direction. It reads in sensory data from the surroundings &amp;amp; the drone (air pressure, angular position, acceleration). And it’s where all the fun autonomous flight possibilities lie.  You can either buy a prepackaged flight controller or you can make your own from an arduino or rasberry pi!&lt;/p&gt;
+&lt;p&gt;Last but not least is the brain. The brain of a UAV is the &lt;strong&gt;flight controller&lt;/strong&gt;. The flight controller does what it’s name says: controls the flight. It tells the rotors how fast to spin and in which direction. It reads in sensory data from the surroundings &amp;amp; the drone (air pressure, angular position, acceleration). And it’s where all the fun autonomous flight possibilities lie.  You can either buy a prepackaged flight controller or you can make your own from an arduino or rasberry pi!&lt;/p&gt;
 
 &lt;h4 id=&quot;add-ons&quot;&gt;Add ons&lt;/h4&gt;
 
